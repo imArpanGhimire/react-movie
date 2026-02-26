@@ -17,7 +17,7 @@ const Like = () => {
             <>
               <div
                 key={index}
-                className="flex p-3 rounded-xl justify-between items-center w-[40%] mt-10 border border-white/20 bg-white/10 backdrop-blur-md shadow-md mx-auto transition-transform "
+                className="flex p-3 rounded-xl justify-between items-center w-[40%] mt-10 border border-white/40 bg-white/10 backdrop-blur-md shadow-md mx-auto transition-transform "
               >
                 <img
                   src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
