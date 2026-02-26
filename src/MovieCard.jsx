@@ -22,7 +22,7 @@ const MovieCard = ({ item }) => {
           <h1 className="text-lg font-bold text-slate-200 mb-1">
             {item.original_title}
           </h1>
-          <h3 className="text-sm text-gray-300">{item.release_date}</h3>
+          <h3 className="text-sm text-slate-300">{item.release_date}</h3>
           <h3 className="text-yellow-400 mt-2 text-sm">
             ⭐ {item.vote_average}
           </h3>
