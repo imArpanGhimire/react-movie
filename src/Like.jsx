@@ -32,11 +32,11 @@ const Like = () => {
                     {movie.release_date}
                   </h4>
                   <h4 className="text-sm">
-                    <span className="text-yellow-500">IMDB</span>:{" "}
+                    <span className="text-yellow-500/80">IMDB</span>:{" "}
                     {movie.vote_average}
                   </h4>
                 </div>
-                <i className="ti ti-heart-filled text-3xl text-red-600"></i>
+                <i className="ti ti-heart-filled text-3xl text-red-600/80"></i>
               </div>
             </>
           );
